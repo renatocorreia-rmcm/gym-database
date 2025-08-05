@@ -2,7 +2,7 @@
 
 from pymongo import MongoClient
 
-cliente = MongoClient("mongodb+srv://phra2:310578ph@bdprojectcluster.gjiliad.mongodb.net/?retryWrites=true&w=majority&appName=BDprojectCluster")
+cliente = MongoClient("mongodb+srv://phra2:<senha>@bdprojectcluster.gjiliad.mongodb.net/?retryWrites=true&w=majority&appName=BDprojectCluster")
 
 bd = cliente["rede"]
 unidades = bd["unidades"]
@@ -105,3 +105,4 @@ for i in unidade["funcionarios"]:
 print("\n")
 
 cliente.drop_database("rede")
+
