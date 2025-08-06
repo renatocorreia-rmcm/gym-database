@@ -4,7 +4,7 @@ import sqlite3
 def create_tables():
 
 	# Cria bd
-	conn = sqlite3.connect("../../../../academia.db")
+	conn = sqlite3.connect("academia.db")
 	cursor = conn.cursor()
 
 	# Criação tabelas

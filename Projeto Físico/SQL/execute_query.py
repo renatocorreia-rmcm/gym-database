@@ -2,7 +2,7 @@ import sqlite3
 
 
 def execute_query(query):
-    conn = sqlite3.connect("../../../../academia.db")
+    conn = sqlite3.connect("academia.db")
     cursor = conn.cursor()
 
     try:
