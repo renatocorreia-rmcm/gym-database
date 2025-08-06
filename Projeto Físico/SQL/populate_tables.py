@@ -3,7 +3,7 @@ import sqlite3
 def populate_tables():
 
 	# Conecta com bd já criado
-	conn = sqlite3.connect("academia.db")
+	conn = sqlite3.connect("../../../../academia.db")
 	cursor = conn.cursor()
 	cursor.executescript("""
 	
