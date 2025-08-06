@@ -1,5 +1,7 @@
 from execute_query import execute_query
 
+# Lista de alunos e os planos que assinaram (com desconto).
+
 query = """
 SELECT A.nome, P.valor, Pr.tx_desconto
 FROM Aluno A

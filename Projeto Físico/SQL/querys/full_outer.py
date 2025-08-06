@@ -5,6 +5,7 @@
 
 from execute_query import execute_query
 
+# Exercícios que pertencem a mais de um treino
 query = """ SELECT te.ID_treino
 FROM TreinoEquipamento AS te
 LEFT JOIN TreinoExercício AS te2 ON te.ID_treino = te2.ID_treino
