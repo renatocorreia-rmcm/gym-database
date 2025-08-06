@@ -30,6 +30,7 @@ def populate_tables():
 	-- Alunos
 	INSERT INTO Aluno VALUES ('11122233344', 'Pedro Henrique');
 	INSERT INTO Aluno VALUES ('55566677788', 'Juliana Alves');
+	INSERT INTO Aluno VALUES ('88899900011', 'Luiz Eduardo');
 	
 	-- Planos
 	INSERT INTO Plano VALUES (1, 150.00);
