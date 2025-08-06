@@ -1,6 +1,6 @@
 import pymongo
 
-uri = "mongodb+srv://leal:BDleal@cluster0.hk2pult.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = "mongodb+srv://leal:<password>@cluster0.hk2pult.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 cliente = pymongo.MongoClient(uri)
 bd = cliente["academia"]
