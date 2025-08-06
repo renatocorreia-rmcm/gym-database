@@ -5,8 +5,10 @@ from execute_query import execute_query
 query = """ 
 SELECT nome, salário
 FROM Funcionário
-ORDER BY salário DESC
-LIMIT 1;
+WHERE (salário, nome) = (
+  SELECT MAX(salário), nome
+  FROM Funcionário
+);
 
 """
 
