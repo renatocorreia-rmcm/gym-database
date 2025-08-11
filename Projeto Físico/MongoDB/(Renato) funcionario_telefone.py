@@ -121,8 +121,8 @@ funcionario.insert_many([
 # Nome → Telefones
 nome_buscado = "Renato"
 f = funcionario.find_one({"nome": nome_buscado})
-telefones = telefone.find({"_id": {"$in": f["telefones_refs"]}})
-print(f"Telefones de {nome_buscado}: {[t['numero'] for t in telefones]}")
+telefones_refs = telefone.find({"_id": {"$in": f["telefones_refs"]}})
+print(f"Telefones de {nome_buscado}: {[t['numero'] for t in telefones_refs]}")
 
 # Telefone → Nome
 numero_buscado = "1011"
