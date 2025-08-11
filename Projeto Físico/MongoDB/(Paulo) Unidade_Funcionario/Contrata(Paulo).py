@@ -9,7 +9,6 @@ unidades = bd["unidades"]
 funcionarios = bd["funcionarios"]
 
 # Em todos os casos a seguir, será impresso os nomes dos funcionários contratados pela unidade de CEP "12345-678".
-# Por enquanto, o código não está preparado para lidar com exceções ou ausência de funcionários na unidade
 
 # Caso 1 - Um documento (funcionario) referenciando um outro documento (unidade):
 unidade = {
@@ -105,4 +104,5 @@ for i in unidade["funcionarios"]:
 print("\n")
 
 cliente.drop_database("rede")
+
 
