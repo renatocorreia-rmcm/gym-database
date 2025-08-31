@@ -1,6 +1,6 @@
 # Gym database
 
-Implementation of a database to a fictional gym, passing through _conceitual_, _logical_ and _physical_ phases of the database project.
+Implementation of a database to a fictional gym, passing through _conceitual_, _logical_ and _physical_ schemas of the database project.
 
 ## Tools
 
