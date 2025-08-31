@@ -1,10 +1,12 @@
 # Gym database
 
 Implementation of a database to a fictional gym, passing through _conceitual_, _logical_ and _physical_ schemas of the database project.
+![projetoBD](https://github.com/user-attachments/assets/6274df05-47eb-4e57-8dba-11beb26aceda)
+The conceitual schema.
 
 ## Tools
 
-SQLite3 API for python
+![SQLite3 API for python](https://docs.python.org/3/library/sqlite3.html).
 
 ## How to use it ?
 
