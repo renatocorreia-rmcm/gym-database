@@ -1,4 +1,4 @@
-from execute_query import execute_query
+from physical_schema.execute_query import execute_query
 
 # Listar todos os equipamentos usados em algum treino.
 

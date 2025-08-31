@@ -1,4 +1,4 @@
-from execute_query import execute_query
+from physical_schema.execute_query import execute_query
 
 # Média salarial dos funcionários por unidade, listando apenas unidades com média acima de 3000.
 

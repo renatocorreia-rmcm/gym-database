@@ -1,4 +1,4 @@
-from execute_query import execute_query
+from physical_schema.execute_query import execute_query
 
 # Lista de CPFs de todos os envolvidos na academia (alunos ou funcionários).
 

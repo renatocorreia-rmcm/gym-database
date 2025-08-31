@@ -3,7 +3,7 @@
 #E no caso do outer full join, se deve realizar o right outer join modificado em união com o left outer join 
 
 
-from execute_query import execute_query
+from physical_schema.execute_query import execute_query
 
 # Exercícios que pertencem a mais de um treino
 query = """ SELECT te.ID_treino

@@ -1,4 +1,4 @@
-from execute_query import execute_query
+from physical_schema.execute_query import execute_query
 
 # Lista todos os funcionários e, se houver, o nome do seu supervisor.
 

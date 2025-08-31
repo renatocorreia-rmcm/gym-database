@@ -1,6 +1,4 @@
-from execute_query import execute_query
-
-# Nome do funcionário com o maior salário.
+from physical_schema.execute_query import execute_query
 
 query = """ 
 SELECT nome
@@ -11,4 +9,4 @@ WHERE salário = (
 );
 """
 
-execute_query(query)
+execute_query(query)  # pass any query you want!

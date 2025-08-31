@@ -1,5 +1,6 @@
 import sqlite3
 
+
 def populate_tables():
 
 	# Conecta com bd já criado
