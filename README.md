@@ -21,7 +21,7 @@ GYM-DATABASE
 |   |
 |   \---querys                         # Miscelaneous queryes to test Schema integrity
 |           anti_join.py
-|           execute_query.py
+|           execute_query.py           # Module to automatize query processing
 |           full_outer.py
 |           groupby.py
 |           inner_join.py
