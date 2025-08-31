@@ -6,5 +6,3 @@ from physical_schema.initialization.populate_tables import populate_tables
 
 create_tables()
 populate_tables()
-
-
