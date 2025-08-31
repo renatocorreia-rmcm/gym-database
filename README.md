@@ -14,18 +14,7 @@ gym-databse
 |       projetoBD.png
 |
 +---Projeto Físico
-|   +---MongoDB
-|   |   |   (Renato) funcionario_telefone.py
-|   |   |   emmanuel.py
-|   |   |
-|   |   +---(Luiz) Unidade_Equipamento
-|   |   |       consultas.py
-|   |   |       inserir.py
-|   |   |
-|   |   \---(Paulo) Unidade_Funcionario
-|   |           Contrata(Paulo).py
-|   |
-|   \---SQL
+|   +---SQL
 |       |   create_tables.py
 |       |   main.py
 |       |   populate_tables.py
