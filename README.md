@@ -8,19 +8,21 @@ SQLite3 API for python
 
 ## How to use it ?
 
-Initialize the DataBase simply running `initialize.py` in `./gym-database/physical_schema/initialize.py`.
+1. Initialize the DataBase simply running `initialize.py` in `./gym-database/physical_schema/initialize.py`.
 
-Now, at main, you can run any query you want in our preloaded Database. Or check out some ready queries at `gym-database\physical_schema\querys`.
-
+2. Have fun!
+   
+    Now, at main, you can run any query you want in our preloaded Database.
+   
+    Or check out some ready queries at `gym-database\physical_schema\querys`.
 
 ## Directory Tree
 
 ```
-GYM-DATABSE
+GYM-DATABASE
 |   .gitignore
-|   main.py
+|   main.py                         # run any query you want (with database initialized)
 |   README.md
-|
 |
 +---conceitual_schema
 |       projetoBD.eer
@@ -30,30 +32,22 @@ GYM-DATABSE
 |       Projeto Lógico - BD.pdf
 |
 \---physical_schema
-    |   execute_query.py
-    |   initialize.py
+    |   execute_query.py            # automatize execution of string as sql query to database
+    |   initialize.py               # create and populate tables
     |
     +---initialization
-    |   |   create_tables.py
-    |   |   populate_tables.py
-    |   |
-    |   \---__pycache__
-    |           create_tables.cpython-312.pyc
-    |           populate_tables.cpython-312.pyc
+    |       create_tables.py
+    |       populate_tables.py
     |
-    +---querys
-    |       anti_join.py
-    |       full_outer.py
-    |       groupby.py
-    |       inner_join.py
-    |       left_outer_join.py
-    |       semi_join.py
-    |       subconsulta_escalar.py
-    |       subconsulta_linha.py
-    |       subconsulta_tabela.py
-    |       union.py
-    |
-    \---__pycache__
-            execute_query.cpython-312.pyc
-            initialize.cpython-312.pyc
+    \---querys                      # ready querys to test database integrity
+            anti_join.py
+            full_outer.py
+            groupby.py
+            inner_join.py
+            left_outer_join.py
+            semi_join.py
+            subconsulta_escalar.py
+            subconsulta_linha.py
+            subconsulta_tabela.py
+            union.py
 ```
